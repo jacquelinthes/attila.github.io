@@ -1,4 +1,4 @@
-function applyScripture(){
+function applyscripture(){
  	// INPUT
     let name = document.getElementById('nameInputBox').value;
     //PROCESSING
