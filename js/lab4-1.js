@@ -5,7 +5,7 @@ PROCESSING : Add the two numbers together store in sum
 OUTPUT : Display sum on the document.
 */
 
-functionaddNumbers() {
+function addnumbers() {
 	// INPUT
 	let x = parseFloat(document.getElementById('number1').value);
 	let y = parseFloat(document.getElementById('number2').value);
