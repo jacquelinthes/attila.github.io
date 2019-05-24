@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CIT 160 - Assignement - Jacquelin Thes</title>
+        <meta name="description" content="This page serves as an assignment template for CIT 160. ">
+        <link href="https://fonts.googgleapis.com/css?family=Quattrocento" rel="stylesheet">
+        <link rel="stylesheet" href="css/program.css">
+    </head>
+    <body>
+        <header>
+            <h1>Week 4: Personalized Scripture</h1>
+            <h2>Jacquelin Thes</h2>
+        </header>
+        <main>
+            <h3>Personalized Assignment</h3>
+            <label>Please Enter your Full Name here: <input type="text" id="nameInputBox"></label>
+            <label><button onclick="addnumbers()"> Add Numbers </button></label>     
+      
+            <p><span id="output"></span></p>
+        </main>    
+    <footer>
+            &copy;2019 &bull; Student Name &bull; BYU-Idaho &bull; CIT 160 &bull; <span id="currentdate"></span>
+        </footer>
+
+
+        <script src="js/lab4-2.js"></script> 
+    </body>
+</html>
+
+function applyScripture() {
+    // Get the user's name from the text field that has the id
+    // of "nameInputBox" and store it in a variable named name.
+    var name = document.getElementById('nameInputBox').value;
+
+    // Use string concatenation to create a verse
+    // of scripture personalized for the user.
+    var scripture = "And again I, " + name + ", would exhort you that ye would come unto Christ," +
+        " and lay hold upon every good gift, and touch not evil gift," +
+        " nor the unclean thing."
+
+    // Display the scripture in the div that has the id "outputDiv".
+    document.getElementById('outputDiv').innerHTML = scripture;
+}
