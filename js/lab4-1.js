@@ -12,5 +12,5 @@ functionaddNumbers() {
 // PROCESSING
 	let sum = x + y;
 // OUTPUT
-	document.getElementById('output').innerHTML = "The Sum of " + x "and " + y + " = " + sum;
+	document.getElementById('output').innerHTML = "The Sum of " + x " and " + y + " = " + sum + "!";
 }
