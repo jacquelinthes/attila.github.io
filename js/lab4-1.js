@@ -14,3 +14,9 @@ function addnumbers() {
     // OUTPUT
 	document.getElementById("output").innerHTML = "The sum of " + x + " and " + y + " equals " + sum + "!";
 }
+
+// Get Current Date
+let today = new Date(); // new Date object
+// now concatenate formatted output
+let date = (today.getMonth()+1) + " / " +  today.getDate() + " / " + today.getFullYear();
+document.getElementById('currentdate').innerHTML = date;
