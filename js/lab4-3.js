@@ -4,7 +4,7 @@ function addressbuilder(){
     let y = document.getElementById('state').value;
     let z = document.getElementById('zipcode').value);
     // PROCESSING
-	let sum = y + ", " + x + ", " + z;
+	let sum = x + ", " + y + ", " + z;
     // OUTPUT
 	document.getElementById("output").innerHTML = sum;
 }
