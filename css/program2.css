@@ -5,13 +5,13 @@ header,
 footer {
 	background-color: rgb(92, 129, 230);
 	color: #fff;
-	padding: 10px;
+    padding: 10px;
+    font-weight: bold;
 }
 
 footer {
 	font-size: 13px;
     letter-spacing: 1.5pt;
-    font-weight: bold;
 }
 
 h1,
