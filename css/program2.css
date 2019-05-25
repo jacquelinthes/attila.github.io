@@ -10,7 +10,8 @@ footer {
 
 footer {
 	font-size: 13px;
-	letter-spacing: 1.5pt;
+    letter-spacing: 1.5pt;
+    font-weight: bold;
 }
 
 h1,
