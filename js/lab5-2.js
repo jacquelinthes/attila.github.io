@@ -13,5 +13,5 @@ function employeesalary() {
   let taxx2 = taxx1 * 0.15;
   let taxx = taxx1 - taxx2;
     // OUTPUT : The Employee after tax pay.
-	document.getElementById("output").innerHTML = taxx + "USD";
+	(document.getElementById("output").innerHTML = taxx + "USD");
 }
