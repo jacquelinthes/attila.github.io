@@ -1,10 +1,4 @@
-Get Current Date
-let today = new Date(); // new Date object
-// now concatenate formatted output
-let date = (today.getMonth()+1) + " / " +  today.getDate() + " / " + today.getFullYear();
-document.getElementById('currentdate').innerHTML = date;
-
-//*Input: Create one or more arrays manually or dynamically.
+/*Input: Create one or more arrays manually or dynamically.
 Processing: Returns the value of the middle element in an array. If the array has an even number of elements, then this function must return the average of the two middle elements.
 Output: The value of the middle element  
 */
